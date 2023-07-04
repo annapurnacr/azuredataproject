@@ -1,0 +1,29 @@
+{
+	"name": "Json4",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "department.json",
+				"container": "rawcontainer"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"department_id": {
+					"type": "integer"
+				},
+				"department_name": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}

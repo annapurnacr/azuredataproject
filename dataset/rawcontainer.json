@@ -1,0 +1,49 @@
+{
+	"name": "rawcontainer",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage3",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "rawcontainer"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"department_id": {
+					"type": "integer"
+				},
+				"department_name": {
+					"type": "string"
+				},
+				"employee_id": {
+					"type": "integer"
+				},
+				"firtname": {
+					"type": "string"
+				},
+				"lastname": {
+					"type": "string"
+				},
+				"phonenumber": {
+					"type": "integer"
+				},
+				"email": {
+					"type": "string"
+				},
+				"salary": {
+					"type": "integer"
+				},
+				"managerid": {
+					"type": "integer"
+				}
+			}
+		}
+	}
+}
