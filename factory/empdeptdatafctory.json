@@ -1,0 +1,9 @@
+{
+	"name": "empdeptdatafctory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "49ec08dd-a6e6-48b6-91d1-b1174036b906",
+		"tenantId": "8bc4cf40-3679-4aa9-a246-95f5c974a713"
+	}
+}
